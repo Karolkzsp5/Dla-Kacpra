@@ -1,0 +1,52 @@
+#nav-bar{
+    text-align: center;
+    text-decoration: none;
+    border: #dc730d dashed 1px;
+}
+
+.nav-bar-items{
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    font-family: Calibri, Georgia, serif;
+    font-size: 30px;
+}
+.nav-bar-items a{
+    text-decoration: none;
+    color: blue;
+}
+
+#main-page{
+    display: flex;
+    flex-direction: column;
+    height: 1126px;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#troll-content-button{
+    display: inline-block;
+    color: white;
+    background-color: #dc730d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#troll-content-button:hover{
+    background-color: #ca5700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: Calibri, Georgia, serif;
+    font-size: 20px;
+    margin-top: auto;
+}
+footer p img{
+    justify-content: center;
+}
