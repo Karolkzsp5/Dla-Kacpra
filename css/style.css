@@ -27,17 +27,38 @@
     font-size: 20px;
 }
 
+#troll_container{
+    position: relative;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+#pointing_arrows{
+    width: 1200px;
+    height: 400px;
+}
+
 #troll-content-button{
     display: inline-block;
     color: white;
     background-color: #dc730d;
-    padding: 10px 20px;
+    padding: 8px 10px;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 10px;
+
+    position: absolute;
+    top: 52%;
+    left: 41.5%;
+    transform: translate(-30%, -70%);
 }
 #troll-content-button:hover{
     background-color: #ca5700;
+}
+
+.teksty-body{
+    text-align: center;
+    justify-content: center;
 }
 
 footer {
@@ -45,6 +66,7 @@ footer {
     justify-content: center;
     font-family: Calibri, Georgia, serif;
     font-size: 20px;
+    border-top: #dc730d dashed 1px;
     margin-top: auto;
 }
 footer p img{
