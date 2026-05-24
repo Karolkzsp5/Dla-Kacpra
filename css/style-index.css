@@ -1,4 +1,12 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 #nav-bar{
+    margin: 10px 10px 10px;
     text-align: center;
     text-decoration: none;
     border: #dc730d dashed 1px;
@@ -7,30 +15,34 @@
 .nav-bar-items{
     list-style-type: none;
     display: flex;
-    gap: 80px;
+    gap: 100px;
     justify-content: center;
     font-family: Calibri, Georgia, serif;
     font-size: 30px;
 }
 .nav-bar-items a{
     text-decoration: none;
-    color: blue;
+    color: red;
+}
+
+.nav-bar-items a.aktywny {
+    text-decoration: underline;
 }
 
 #main-page{
     display: flex;
     flex-direction: column;
-    height: 1126px;
+    flex: 1;
     font-family: "Patrick Hand", cursive;
     font-weight: 400;
-    font-style: normal;
     font-size: 20px;
+    font-style: normal;
 }
 
 #troll_container{
     position: relative;
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 52%;
 }
 
 #pointing_arrows{
@@ -60,13 +72,21 @@
     text-align: center;
     justify-content: center;
 }
+.teksty-body-wyjasnienie1{
+    margin-top: 3%;
+
+}
+
+h4{
+    height: 851px;
+}
 
 footer {
     display: flex;
     justify-content: center;
     font-family: Calibri, Georgia, serif;
     font-size: 20px;
-    border-top: #dc730d dashed 1px;
+    border-top: #dc730d solid 1px;
     margin-top: auto;
 }
 footer p img{

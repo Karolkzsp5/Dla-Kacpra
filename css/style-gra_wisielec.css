@@ -1,0 +1,38 @@
+body{
+    background-image: url("../img/joe-woods-4Zaq5xY5M_c-unsplash.jpg");
+    background-repeat: no-repeat;
+}
+
+#main-page{
+    display: flex;
+    align-items: center;
+}
+
+#klawiatura{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 22.8%;
+    height: auto;
+}
+
+.litera{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+    color: black;
+    background-color: #dc730d;
+    width: 50px;
+    height: 35px;
+}
+
+
+#nav-bar{
+    background-color: #dddcc2;
+}
+
+footer{
+    background-color: #dddcc2;
+}
