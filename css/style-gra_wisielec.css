@@ -1,3 +1,4 @@
+/* style-gra_wisielec */
 body{
     background-image: url("../img/joe-woods-4Zaq5xY5M_c-unsplash.jpg");
     background-repeat: no-repeat;
@@ -7,17 +8,50 @@ body{
     display: flex;
     align-items: center;
 }
+#gra{
+    text-align: center;
+    align-items: center;
+}
+#obrazek_wisielec{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 25%;
+}
+
+.statystyki{
+    color: red;
+}
+
+.teksty{
+    font-family: Calibri, Rubik, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#napis-kategoria{
+    margin: 0 30px 0 30px;
+}
+
+#haslo{
+    margin-left: 20px;
+    letter-spacing: 1ex;
+}
 
 #klawiatura{
+    margin-top: 3%;
     font-family: Arial, Helvetica, sans-serif;
-    width: 22.8%;
+    width: 25%;
     height: auto;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
 }
 
 .litera{
     display: inline-block;
     text-decoration: none;
-    text-align: center;
     align-content: center;
     padding: 10px;
     margin: 4px;
@@ -28,6 +62,14 @@ body{
     height: 35px;
 }
 
+.litera.zuzyta {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.litera:hover{
+    cursor: pointer;
+}
 
 #nav-bar{
     background-color: #dddcc2;
