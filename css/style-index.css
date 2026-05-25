@@ -16,7 +16,7 @@ body{
 .nav-bar-items{
     list-style-type: none;
     display: flex;
-    gap: 100px;
+    gap: 5vw;
     justify-content: center;
     font-family: Calibri, Georgia, serif;
     font-size: 30px;
@@ -40,22 +40,23 @@ body{
     font-style: normal;
 }
 
-h4{
-    height: 646px;
-}
-
 h4 span{
     color: red;
 }
-#pointing_arrows{
-    width: 1000px;
-    height: 400px;
+#pointing_arrows {
+    width: 100%;
+    height: auto;
 }
 
-#troll_container{
+#troll_container {
     position: relative;
-    display: inline-block;
-    margin-left: 56.5%;
+    align-self: flex-end;
+    margin-right: 2vw;
+    margin-top: 20vh;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
 }
 
 #troll-content-button{
@@ -69,9 +70,9 @@ h4 span{
     border-radius: 10px;
 
     position: absolute;
-    top: 52%;
-    left: 42%;
-    transform: translate(-30%, -70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #troll-content-button:hover{
     background-color: #ca5700;

@@ -6,17 +6,24 @@ body{
 
 #main-page{
     display: flex;
-    align-items: center;
+    width: 100%;
 }
 #gra{
     text-align: center;
     align-items: center;
 }
-#obrazek_wisielec{
+#obrazek_wisielec {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#statystyki-container{
+    background-color: #dddcc2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .statystyki{
@@ -38,23 +45,24 @@ body{
     letter-spacing: 1ex;
 }
 
-#klawiatura{
-    margin-top: 3%;
+#klawiatura {
     font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    height: auto;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    align-content: center;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 3% auto 50px auto;
 }
 
 .litera{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     align-content: center;
     padding: 10px;
-    margin: 4px;
     border-radius: 10px;
     color: black;
     background-color: #dc730d;
