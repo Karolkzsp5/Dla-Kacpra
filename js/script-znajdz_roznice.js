@@ -1,31 +1,22 @@
-// 1. Pobieramy nasz obrazek z HTML
-const obrazekDoGry = document.querySelector("#obszar_gry img");
+const obszarGry = document.querySelector("#obszar_gry img");
+const znalezioneRoznice = document.querySelector("#znalezione-roznice");
+const rozniceElementy = document.querySelectorAll(".roznica");
 
-// 2. Nasłuchujemy kliknięć na tym konkretnym obrazku
-obrazekDoGry.addEventListener("click", function(e) {
+let clickCount = 0;
 
-    // KROK 1: Gdzie dokładnie kliknęliśmy? (względem obrazka)
-    const pozycjaKliknieciaX = e.offsetX;
-    const pozycjaKliknieciaY = e.offsetY;
+rozniceElementy.forEach((pojedynczaRoznica) => {
 
-    // KROK 2: Jakie są wymiary obrazka w tym ułamku sekundy?
-    // e.target odnosi się do elementu, który wywołał zdarzenie (czyli <img>)
-    const szerokoscObrazka = e.target.offsetWidth;
-    const wysokoscObrazka = e.target.offsetHeight;
+    pojedynczaRoznica.addEventListener("click", (e) => {
+        clickCount++;
+        znalezioneRoznice.innerHTML = clickCount;
+        e.target.style.pointerEvents = "none";
+        if (clickCount >= 10) {
+            setTimeout(() => {
 
-    // KROK 3: Obliczamy procenty
-    // Używamy metody .toFixed(2), aby uciąć wynik do 2 miejsc po przecinku (np. 45.33% zamiast 45.333333333333%)
-    const procentX = ((pozycjaKliknieciaX / szerokoscObrazka) * 100).toFixed(2);
-    const procentY = ((pozycjaKliknieciaY / wysokoscObrazka) * 100).toFixed(2);
-
-    // KROK 4: Formatujemy wynik tak, by można go było od razu skopiować do CSS!
-    const gotowyKodCSS = `left: ${procentX}%; top: ${procentY}%;`;
-
-    // Wypisujemy wynik w konsoli przeglądarki (F12 -> Console)
-    console.log(gotowyKodCSS);
-
-    // Opcjonalny bonus: Kopiujemy wynik automatycznie do schowka!
-    navigator.clipboard.writeText(gotowyKodCSS).then(() => {
-        console.log("Skopiowano do schowka!");
+                window.location.reload();
+            }, 400)
+        }
+        e.target.classList.add("odkryta");
     });
+
 });
