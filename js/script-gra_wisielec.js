@@ -1,7 +1,7 @@
 const rundy = [
-    { haslo: "Kura domowa",         fragmentKlucza: "XXXX-", kategoria: "Zwierzęta" },
-    { haslo: "Red Dead Redemption", fragmentKlucza: "YYYY-", kategoria: "Gra" },
-    { haslo: "Google",              fragmentKlucza: "ZZZZ",  kategoria: "Korporacja" }
+    { haslo: "Kura domowa",         kategoria: "Zwierzęta" },
+    { haslo: "Red Dead Redemption", kategoria: "Gra" },
+    { haslo: "Google",              kategoria: "Korporacja" }
 ];
 
 let obecnaRunda = 0;
@@ -33,7 +33,13 @@ function aktualizujHaslo() {
 
     if (!ukrytyTekst.includes("_")) {
         setTimeout(() => {
-            alert("Świetnie! Zdobywasz fragment kodu: " + rundy[obecnaRunda].fragmentKlucza);
+            if(obecnaRunda === 0){
+                alert("Świetnie! Przechodzisz do drugiej rundy");
+
+            }
+            else if(obecnaRunda === 1){
+                alert("Świetnie! Przechodzisz do trzeciej rundy");
+            }
             obecnaRunda++;
             przygotujNowaRunde();
         }, 300);
@@ -42,8 +48,8 @@ function aktualizujHaslo() {
 
 function przygotujNowaRunde() {
     if (obecnaRunda >= rundy.length) {
-        alert("Gratulacje Kapi! Odgadłeś wszystkie hasła! Pełny kod do gry to: " +
-            rundy[0].fragmentKlucza + rundy[1].fragmentKlucza + rundy[2].fragmentKlucza);
+        alert("Gratulacje Kapi! Odgadłeś wszystkie hasła! Twój kod PaySafeCard to: XXXX-XXXX-XXXX-XXXX");
+        obrazekWisielca.src = `../img/wisielec/ishowspeed-wow.gif`
         return;
     }
 
