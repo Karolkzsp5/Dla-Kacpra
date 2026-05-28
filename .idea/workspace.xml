@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="218bb51f-055d-44eb-8261-24765bee4dbb" name="Changes" comment="Poprawy w responsywności" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Karolkzsp5&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Karolkzsp5/Dla-Kacpra.git&quot;,
+    &quot;accountId&quot;: &quot;aaec2ed4-d63d-474f-b2a4-3c7fd8cdfc3c&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.050415109951383" />
+      <entry key="MS500" value="1.5501896375901487" />
+      <entry key="S2" value="1.9241523387658344" />
+      <entry key="S5" value="2.6966748378723073" />
+      <entry key="S10" value="3.7086531347333684" />
+      <entry key="S30" value="5.246554312481953" />
+      <entry key="S60" value="6.803366150245154" />
+      <entry key="M2" value="9.795306185928759" />
+      <entry key="M5" value="14.766229352117724" />
+      <entry key="M10" value="17.94161485019549" />
+      <entry key="M15" value="19.84256272009371" />
+      <entry key="M30" value="24.262642758463333" />
+      <entry key="H1" value="29.489104450655926" />
+      <entry key="H2" value="33.8060506939156" />
+      <entry key="H4" value="36.62049727724808" />
+      <entry key="D1" value="39.39262257282679" />
+      <entry key="W1" value="39.91208096886258" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.1295510263654735E-226" />
+      <entry key="MS500" value="6.465188189615056E-46" />
+      <entry key="S2" value="5.0424928691442324E-12" />
+      <entry key="S5" value="3.0273185158919477E-5" />
+      <entry key="S10" value="0.0055022128375957465" />
+      <entry key="S30" value="0.18851390390351316" />
+      <entry key="S60" value="0.6980420996327552" />
+      <entry key="M2" value="2.1382733431788186" />
+      <entry key="M5" value="5.150545483739961" />
+      <entry key="M10" value="7.13834452322441" />
+      <entry key="M15" value="8.033058945267003" />
+      <entry key="M30" value="9.284092829397991" />
+      <entry key="H1" value="10.296528119188405" />
+      <entry key="H2" value="11.023613779935024" />
+      <entry key="H4" value="11.473894484408971" />
+      <entry key="D1" value="11.906352084053175" />
+      <entry key="W1" value="11.986465582864877" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9940849961408463" />
+      <entry key="MS500" value="1.5338473015945515" />
+      <entry key="S2" value="1.919098209010499" />
+      <entry key="S5" value="2.693700622499625" />
+      <entry key="S10" value="3.711492297914859" />
+      <entry key="S30" value="5.425851633199406" />
+      <entry key="S60" value="7.476486903237029" />
+      <entry key="M2" value="11.890375475371245" />
+      <entry key="M5" value="19.87476298673478" />
+      <entry key="M10" value="25.050860461715843" />
+      <entry key="M15" value="27.85366934849177" />
+      <entry key="M30" value="33.533663720796895" />
+      <entry key="H1" value="39.77806351718581" />
+      <entry key="H2" value="44.82546852851646" />
+      <entry key="H4" value="48.09216024496493" />
+      <entry key="D1" value="51.29858078068145" />
+      <entry key="W1" value="51.89848969485653" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3E8SpOQBYNs5upbAsLQwJObg6d2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekty_JetBrains\Webstorm projekty\Dla-Kacpra\img" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="218bb51f-055d-44eb-8261-24765bee4dbb" name="Changes" comment="" />
+      <created>1779558885655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779558885655</updated>
+      <workItem from="1779558886808" duration="613000" />
+      <workItem from="1779559758576" duration="6379000" />
+      <workItem from="1779702029167" duration="3720000" />
+      <workItem from="1779725955303" duration="1768000" />
+      <workItem from="1779960893177" duration="556000" />
+    </task>
+    <task id="LOCAL-00001" summary="New elements in main page">
+      <option name="closed" value="true" />
+      <created>1779567811994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779567811994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New elements in main page">
+      <option name="closed" value="true" />
+      <created>1779567866633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779567866633</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Poprawy w responsywności">
+      <option name="closed" value="true" />
+      <created>1779707496667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779707496667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New elements in main page" />
+    <MESSAGE value="Poprawy w responsywności" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawy w responsywności" />
+  </component>
+</project>
