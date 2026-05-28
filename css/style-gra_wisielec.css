@@ -4,6 +4,10 @@ body{
     background-repeat: no-repeat;
 }
 
+#nav-bar{
+    background-color: rgba(221, 220, 194, 0.7);
+}
+
 #main-page{
     display: flex;
     width: 100%;
@@ -79,10 +83,6 @@ body{
     cursor: pointer;
 }
 
-#nav-bar{
-    background-color: #dddcc2;
-}
-
 footer{
-    background-color: #dddcc2;
+    background-color: rgba(221, 220, 194, 0.7);
 }
