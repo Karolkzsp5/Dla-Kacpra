@@ -1,0 +1,65 @@
+#nav-bar{
+    background-color: rgba(97, 129, 255, 0.8);
+    margin-bottom: 50px;
+}
+
+#quiz-gra{
+    font-family: Arial, Calibri, Roboto, sans-serif;
+    max-width: 994px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#zakladka_pytania-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.zakladka_pytania{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 80px;
+    background-color: #47A7EE;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.zakladka_pytania:hover{
+    background-color: #298cd6;
+    transform: scale(1.02);
+}
+
+#pytanie-container{
+    margin-top: 20px;
+    padding: 20px;
+    border: #ca5700 solid 2px;
+    border-radius: 15px;
+}
+
+#pytanie-container p:nth-child(1){
+    margin: 0 0 10px 0;
+}
+
+#odpowiedzi-container{
+    display: inline-block;
+    margin: 20px;
+}
+.odpowiedzi{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer{
+    background-color: rgba(97, 129, 255, 0.8);
+}

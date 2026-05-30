@@ -35,7 +35,6 @@ function aktualizujHaslo() {
         setTimeout(() => {
             if(obecnaRunda === 0){
                 alert("Świetnie! Przechodzisz do drugiej rundy");
-
             }
             else if(obecnaRunda === 1){
                 alert("Świetnie! Przechodzisz do trzeciej rundy");
