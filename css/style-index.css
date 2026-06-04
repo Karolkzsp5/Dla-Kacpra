@@ -41,7 +41,7 @@ body{
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
-}
+    animation: fadeIn 1s ease-out forwards;}
 
 h4 span{
     color: red;
@@ -108,4 +108,10 @@ footer {
 
 footer p img{
     justify-content: center;
+}
+
+/* Animacja przewijania podstron */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
