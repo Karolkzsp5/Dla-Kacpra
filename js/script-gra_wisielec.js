@@ -35,7 +35,6 @@ function aktualizujHaslo() {
         setTimeout(() => {
             if(obecnaRunda === 0){
                 alert("Świetnie! Przechodzisz do drugiej rundy");
-
             }
             else if(obecnaRunda === 1){
                 alert("Świetnie! Przechodzisz do trzeciej rundy");
@@ -63,7 +62,7 @@ function przygotujNowaRunde() {
     wyswietlLicznikBledow.innerHTML = licznikBledow + "/8";
     obrazekWisielca.src = `../img/wisielec/s0.png`;
 
-    // Odblokowujemy literki
+    // Odblokowanie literek na klawiaturze
     klawiatura.forEach(przycisk => {
         przycisk.classList.remove("zuzyta");
     });
