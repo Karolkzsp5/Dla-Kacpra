@@ -1,6 +1,6 @@
 #nav-bar{
     background-color: rgba(97, 129, 255, 0.8);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #quiz-gra{
@@ -14,7 +14,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin-top: 20px;
 }
 
 .zakladka_pytania{
@@ -63,8 +62,13 @@
     transition: background-color 0.2s;
 }
 
-.odpowiedzi.active{
-    background-color: #f4f9fc;
+.odpowiedzi.active {
+    border-color: #47A7EE;
+    background-color: #e6f3ff;
+}
+
+.odpowiedzi.active .checkbox-odpowiedzi {
+    background-color: #47A7EE;
 }
 
 .checkbox-odpowiedzi{
@@ -75,6 +79,26 @@
     border: 2px solid black;
     border-radius: 4px;
     background-color: white;
+}
+
+#dolny-panel{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.dolny-panel-przycisk{
+    border: 1px solid #47A7EE;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#quiz-statystyki{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 footer{

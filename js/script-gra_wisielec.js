@@ -1,3 +1,10 @@
+const poleHasla = document.querySelector("#haslo");
+const klawiatura = document.querySelectorAll(".litera");
+const obrazekWisielca = document.querySelector("#obrazek_wisielec");
+const runda = document.querySelector("#licznikRund");
+const kategoria = document.querySelector("#kategoria");
+const wyswietlLicznikBledow = document.querySelector("#licznikBledow");
+
 const rundy = [
     { haslo: "Kura domowa",         kategoria: "Zwierzęta" },
     { haslo: "Red Dead Redemption", kategoria: "Gra" },
@@ -8,13 +15,6 @@ let obecnaRunda = 0;
 let haslo = rundy[obecnaRunda].haslo.toUpperCase();
 let licznikBledow = 0;
 let trafioneLitery = [];
-
-const poleHasla = document.querySelector("#haslo");
-const klawiatura = document.querySelectorAll(".litera");
-const obrazekWisielca = document.querySelector("#obrazek_wisielec");
-const runda = document.querySelector("#licznikRund");
-const kategoria = document.querySelector("#kategoria");
-const wyswietlLicznikBledow = document.querySelector("#licznikBledow");
 
 function aktualizujHaslo() {
     let ukrytyTekst = "";
