@@ -81,10 +81,12 @@
     background-color: white;
 }
 
-#dolny-panel{
+#dolny-panel {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .dolny-panel-przycisk{
@@ -95,11 +97,76 @@
     cursor: pointer;
 }
 
+.dolny-panel-przycisk-1{
+    border: 1px solid #47A7EE;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dolny-panel-przycisk-2{
+    border: 1px solid #47A7EE;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dolny-panel-przycisk:hover{
+    background-color: #6EC9ED;
+}
+
 #quiz-statystyki{
-    display: flex;
     gap: 10px;
     align-items: center;
 }
+
+.zakladka_pytania.aktywna {
+    background-color: #2b75a8;
+    border-color: white;
+    color: white;
+    transform: scale(1.05);
+}
+
+#wygrana-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 4rem;
+    color: red;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+#wygrana-info p{
+    margin: 0;
+}
+
+
+/* Styl dla poprawnej odpowiedzi (zielony) */
+.odpowiedzi.dobra-odpowiedz {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.odpowiedzi.dobra-odpowiedz .checkbox-odpowiedzi {
+    background-color: #28a745;
+}
+
+/* Styl dla błędnej odpowiedzi wybranej przez gracza (czerwony) */
+.odpowiedzi.zla-odpowiedz {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+.odpowiedzi.zla-odpowiedz .checkbox-odpowiedzi {
+    background-color: #dc3545;
+}
+
+
 
 footer{
     background-color: rgba(97, 129, 255, 0.8);
