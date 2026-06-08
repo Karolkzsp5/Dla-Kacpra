@@ -47,7 +47,7 @@ function aktualizujHaslo() {
 
 function przygotujNowaRunde() {
     if (obecnaRunda >= rundy.length) {
-        alert("Gratulacje Kapi! Odgadłeś wszystkie hasła! Twój kod PaySafeCard to: XXXX-XXXX-XXXX-XXXX");
+        alert("Gratulacje!!! Odgadłeś wszystkie hasła! Twoja nagroda to: ");
         obrazekWisielca.src = `../img/wisielec/ishowspeed-wow.gif`
         return;
     }

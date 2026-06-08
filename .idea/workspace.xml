@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="218bb51f-055d-44eb-8261-24765bee4dbb" name="Changes" comment="Untracked files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-quizy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-quizy.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/quizy.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/quizy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script-quizy.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-quizy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/znajdz_roznice.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/znajdz_roznice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-gra_wisielec.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-gra_wisielec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,31 +29,31 @@
     &quot;assignee&quot;: &quot;Karolkzsp5&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Karolkzsp5/Dla-Kacpra.git",
-    "accountId": "55da48df-d9b0-4ca1-b17c-31cb527a9978"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Karolkzsp5/Dla-Kacpra.git&quot;,
+    &quot;accountId&quot;: &quot;55da48df-d9b0-4ca1-b17c-31cb527a9978&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5052891990578772" />
-      <entry key="MS500" value="3.8290634927541074" />
-      <entry key="S2" value="8.268073033962551" />
-      <entry key="S5" value="10.676671196898347" />
-      <entry key="S10" value="11.748773147191532" />
-      <entry key="S30" value="12.560982412759316" />
-      <entry key="S60" value="12.777609466791152" />
-      <entry key="M2" value="12.888073946073781" />
-      <entry key="M5" value="12.977523319105607" />
-      <entry key="M10" value="13.834574485158825" />
-      <entry key="M15" value="16.074284568455074" />
-      <entry key="M30" value="26.061534900201103" />
-      <entry key="H1" value="53.34364942496117" />
-      <entry key="H2" value="116.85376798697594" />
-      <entry key="H4" value="203.31281672621387" />
-      <entry key="D1" value="348.46414179968366" />
-      <entry key="W1" value="384.56579450003716" />
+      <entry key="MS100" value="1.8466565688155017" />
+      <entry key="MS500" value="2.407683234603433" />
+      <entry key="S2" value="2.8071721416393856" />
+      <entry key="S5" value="2.9207816763354266" />
+      <entry key="S10" value="3.10449255397225" />
+      <entry key="S30" value="5.798400534887716" />
+      <entry key="S60" value="9.345417226054849" />
+      <entry key="M2" value="12.700801211286098" />
+      <entry key="M5" value="15.582516646324361" />
+      <entry key="M10" value="16.73623896658573" />
+      <entry key="M15" value="17.169262844823034" />
+      <entry key="M30" value="18.08022211540745" />
+      <entry key="H1" value="21.04988708904584" />
+      <entry key="H2" value="38.73375690157941" />
+      <entry key="H4" value="102.58854715428444" />
+      <entry key="D1" value="350.22042436265275" />
+      <entry key="W1" value="443.8577567175623" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -61,37 +61,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="1.736329685283299E-113" />
-      <entry key="S60" value="5.902274476095083E-57" />
-      <entry key="M2" value="1.1587883362262536E-28" />
-      <entry key="M5" value="1.716680704632611E-11" />
-      <entry key="M10" value="1.223370976909426E-5" />
-      <entry key="M15" value="0.001198537825839866" />
-      <entry key="M30" value="0.14631888509669713" />
-      <entry key="H1" value="2.0845183336026802" />
-      <entry key="H2" value="8.891213720972596" />
-      <entry key="H4" value="19.068678312503927" />
-      <entry key="D1" value="36.75205934003006" />
-      <entry key="W1" value="41.204841685812205" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="4.269805917028447E-178" />
+      <entry key="M2" value="3.1167249787183367E-89" />
+      <entry key="M5" value="1.0152366147700296E-35" />
+      <entry key="M10" value="9.407994317817429E-18" />
+      <entry key="M15" value="1.006030143900116E-11" />
+      <entry key="M30" value="1.3405407112423735E-5" />
+      <entry key="H1" value="0.01995241785016708" />
+      <entry key="H2" value="0.8698732098593362" />
+      <entry key="H4" value="5.9644176312042285" />
+      <entry key="D1" value="30.280026755666643" />
+      <entry key="W1" value="40.08024172244705" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4777529566929821" />
-      <entry key="MS500" value="3.8145459000284205" />
-      <entry key="S2" value="8.254001142905242" />
-      <entry key="S5" value="10.668092360624243" />
-      <entry key="S10" value="11.743787199815007" />
-      <entry key="S30" value="12.559140307682151" />
-      <entry key="S60" value="12.7766641176004" />
-      <entry key="M2" value="12.887595055309093" />
-      <entry key="M5" value="12.977325858262827" />
-      <entry key="M10" value="13.834398554227564" />
-      <entry key="M15" value="16.075182274797232" />
-      <entry key="M30" value="26.207049005077568" />
-      <entry key="H1" value="55.42535934659273" />
-      <entry key="H2" value="125.73940726136355" />
-      <entry key="H4" value="222.37552123117618" />
-      <entry key="D1" value="385.2142673728323" />
-      <entry key="W1" value="425.77032592489985" />
+      <entry key="MS100" value="1.31144480767617" />
+      <entry key="MS500" value="2.2402410918525515" />
+      <entry key="S2" value="2.7587616325110016" />
+      <entry key="S5" value="2.900738101150154" />
+      <entry key="S10" value="3.0940290860547552" />
+      <entry key="S30" value="5.791734525812543" />
+      <entry key="S60" value="9.339462549286143" />
+      <entry key="M2" value="12.696463044752182" />
+      <entry key="M5" value="15.580290567551723" />
+      <entry key="M10" value="16.735025438452837" />
+      <entry key="M15" value="17.168429452828335" />
+      <entry key="M30" value="18.079801945210793" />
+      <entry key="H1" value="21.069583030576098" />
+      <entry key="H2" value="39.60295605847466" />
+      <entry key="H4" value="108.55102067037369" />
+      <entry key="D1" value="380.4988414791615" />
+      <entry key="W1" value="483.9376941528904" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -138,7 +138,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
       </set>
     </attachedChunks>
   </component>
@@ -156,7 +156,8 @@
       <workItem from="1779960893177" duration="1011000" />
       <workItem from="1780755298804" duration="1016000" />
       <workItem from="1780770962249" duration="3422000" />
-      <workItem from="1780810494568" duration="15912000" />
+      <workItem from="1780810494568" duration="24109000" />
+      <workItem from="1780901770360" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="New elements in main page">
       <option name="closed" value="true" />
@@ -190,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779961637748</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Untracked files">
+      <option name="closed" value="true" />
+      <created>1780827382272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780827382272</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
