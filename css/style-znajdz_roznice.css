@@ -13,12 +13,19 @@ body{
     width: 100%;
     max-width: 1000px;
     margin: 20px auto;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 #obszar_gry img{
     width: 100%;
     height: auto;
     display: block;
+
+    -webkit-user-drag: none;
 }
 
 .roznica {
