@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="218bb51f-055d-44eb-8261-24765bee4dbb" name="Changes" comment="Aktualizacja struktury plików html pod github pages.">
+    <list default="true" id="218bb51f-055d-44eb-8261-24765bee4dbb" name="Changes" comment="Zablokowanie zaznaczania i przeciągania obrazka w grze znajdź różnice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-znajdz_roznice.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-znajdz_roznice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/znajdz_roznice.html" beforeDir="false" afterPath="$PROJECT_DIR$/znajdz_roznice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script-gra_wisielec.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script-gra_wisielec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <workItem from="1780901770360" duration="2431000" />
       <workItem from="1781616801300" duration="442000" />
       <workItem from="1782834484048" duration="33000" />
-      <workItem from="1782932637874" duration="1650000" />
+      <workItem from="1782932637874" duration="2731000" />
     </task>
     <task id="LOCAL-00001" summary="New elements in main page">
       <option name="closed" value="true" />
@@ -226,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782933198366</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Zablokowanie zaznaczania i przeciągania obrazka w grze znajdź różnice">
+      <option name="closed" value="true" />
+      <created>1782934332655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1782934332655</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +257,7 @@
     <MESSAGE value="Minor text changes" />
     <MESSAGE value="Minor text changes V2" />
     <MESSAGE value="Aktualizacja struktury plików html pod github pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aktualizacja struktury plików html pod github pages." />
+    <MESSAGE value="Zablokowanie zaznaczania i przeciągania obrazka w grze znajdź różnice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zablokowanie zaznaczania i przeciągania obrazka w grze znajdź różnice" />
   </component>
 </project>
