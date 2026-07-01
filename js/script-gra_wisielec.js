@@ -48,7 +48,7 @@ function aktualizujHaslo() {
 function przygotujNowaRunde() {
     if (obecnaRunda >= rundy.length) {
         alert("Gratulacje!!! Odgadłeś wszystkie hasła! Twoja nagroda to: ");
-        obrazekWisielca.src = `../img/wisielec/ishowspeed-wow.gif`
+        obrazekWisielca.src = `/img/wisielec/ishowspeed-wow.gif`
         return;
     }
 
@@ -60,7 +60,7 @@ function przygotujNowaRunde() {
     trafioneLitery = [];
 
     wyswietlLicznikBledow.innerHTML = licznikBledow + "/8";
-    obrazekWisielca.src = `../img/wisielec/s0.png`;
+    obrazekWisielca.src = `/img/wisielec/s0.png`;
 
     // Odblokowanie literek na klawiaturze
     klawiatura.forEach(przycisk => {
@@ -84,7 +84,7 @@ klawiatura.forEach(przycisk => {
         else {
             licznikBledow++;
             wyswietlLicznikBledow.innerHTML = " " + licznikBledow + "/8";
-            obrazekWisielca.src = `../img/wisielec/s${licznikBledow}.png`;
+            obrazekWisielca.src = `/img/wisielec/s${licznikBledow}.png`;
 
             if (licznikBledow >= 8) {
                 setTimeout(() => {
